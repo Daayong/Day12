@@ -26,7 +26,7 @@ public class StringMain5 {
 		
 		String file = sc.next();	
 		
-		String str = file.substring(file.indexOf('.'));
+		String str = file.substring(file.lastIndexOf('.'));
 		
 		String h1=".jpg";
 		String h2=".png";
